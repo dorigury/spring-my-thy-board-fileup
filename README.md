@@ -2,10 +2,10 @@
 스프링부트로 게시판 만들어보기
 
 ## 개발환경
-- IntelliJ IDEA Community Edition 2023.3.3
-- Amazon Corretto 21
+- IntelliJ IDEA Community Edition 2023.1
+- Oracle 21
 - mysql community server 8.0
-- spring boot 3.1.8
+- spring boot 3.2.4
 - mybatis framework
 - thymeleaf
 
@@ -13,14 +13,16 @@
 - Spring Web
     - MVC 패턴 구현을 위한
 - Lombok
+- Thymeleaf 
+    - HTML 템플릿 엔진
 - Spring Boot DevTools
     - 코드 수정시 자동으로 서버 재시작
 
-DB 연동시(뒷부분에서 추가 예정)
+첫번째 설정후 DB 연동시
 - MyBatis Framework
 - MySQL Driver
 
-## 강의 구성
+## 구현 구성
 0. 소개
 1. 프로젝트 세팅
 2. 시작페이지 출력, devtools 적용
